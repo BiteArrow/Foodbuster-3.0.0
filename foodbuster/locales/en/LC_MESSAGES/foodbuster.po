@@ -1,0 +1,152 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "Глютен"
+msgstr "Gluten"
+
+msgid "глютен"
+msgstr "gluten"
+
+msgid "Ракообразные"
+msgstr "Crustaceans"
+
+msgid "ракообразные"
+msgstr "crustaceans"
+
+msgid "Яйца"
+msgstr "Eggs"
+
+msgid "яйца"
+msgstr "eggs"
+
+msgid "Рыба"
+msgstr "Fish"
+
+msgid "рыба"
+msgstr "fish"
+
+msgid "Арахис"
+msgstr "Peanuts"
+
+msgid "арахис"
+msgstr "peanuts"
+
+msgid "Соя"
+msgstr "Soy"
+
+msgid "соя"
+msgstr "soy"
+
+msgid "Молоко и лактоза"
+msgstr "Milk & lactose"
+
+msgid "молоко"
+msgstr "milk"
+
+msgid "Орехи"
+msgstr "Tree nuts"
+
+msgid "орехи"
+msgstr "nuts"
+
+msgid "Сельдерей"
+msgstr "Celery"
+
+msgid "сельдерей"
+msgstr "celery"
+
+msgid "Горчица"
+msgstr "Mustard"
+
+msgid "горчица"
+msgstr "mustard"
+
+msgid "Кунжут"
+msgstr "Sesame"
+
+msgid "кунжут"
+msgstr "sesame"
+
+msgid "Сульфиты"
+msgstr "Sulphites"
+
+msgid "сульфиты"
+msgstr "sulphites"
+
+msgid "Люпин"
+msgstr "Lupin"
+
+msgid "люпин"
+msgstr "lupin"
+
+msgid "Моллюски"
+msgstr "Molluscs"
+
+msgid "моллюски"
+msgstr "molluscs"
+
+msgid "Вегетарианское"
+msgstr "Vegetarian"
+
+msgid "Веганское"
+msgstr "Vegan"
+
+msgid "Халал"
+msgstr "Halal"
+
+msgid "Острое"
+msgstr "Spicy"
+
+msgid "Отправлен на кухню"
+msgstr "Sent to the kitchen"
+
+msgid "Новый"
+msgstr "New"
+
+msgid "Принят кухней"
+msgstr "Accepted by the kitchen"
+
+msgid "Принят"
+msgstr "Accepted"
+
+msgid "Готовится"
+msgstr "Cooking"
+
+msgid "Готов — несём к столу"
+msgstr "Ready — on its way"
+
+msgid "Готов"
+msgstr "Ready"
+
+msgid "Подан"
+msgstr "Served"
+
+msgid "Отменён"
+msgstr "Cancelled"
+
+msgid "Вопрос по меню"
+msgstr "Question about the menu"
+
+msgid "Приборы и салфетки"
+msgstr "Cutlery and napkins"
+
+msgid "Хотим рассчитаться"
+msgstr "We'd like the bill"
+
+msgid "Оплата наличными"
+msgstr "Paying cash"
+
+msgid "Нужна помощь"
+msgstr "Need help"
+
+msgid "Kaspi QR"
+msgstr "Kaspi QR"
+
+msgid "Банковская карта"
+msgstr "Bank card"
+
+msgid "Наличными официанту"
+msgstr "Cash to the waiter"
+

@@ -1,0 +1,27 @@
+{
+ "_doc": "Ингредиенты, которые гость может убрать. match — начала слов в составе блюда; значения — сколько КБЖУ и граммов уходит из порции. Аллергены не снимаются автоматически: следы могли остаться на кухне.",
+ "group": {"id": "without", "name": "Убрать из блюда", "max": 4},
+ "items": [
+  {"id": "cheese", "name": "Без сыра", "match": ["сыр", "пармезан", "моцарел", "фета", "чеддер", "горгонзол", "козий сыр"], "kcal": -110, "protein": -7, "fat": -9, "carbs": 0, "weight_g": -30},
+  {"id": "sauce", "name": "Без соуса", "match": ["соус", "заправк", "чимичурри", "демиглас"], "kcal": -70, "protein": -1, "fat": -6, "carbs": -4, "weight_g": -30},
+  {"id": "mayo", "name": "Без майонеза", "match": ["майонез"], "kcal": -95, "protein": 0, "fat": -10, "carbs": -1, "weight_g": -15},
+  {"id": "bacon", "name": "Без бекона", "match": ["бекон"], "kcal": -90, "protein": -5, "fat": -8, "carbs": 0, "weight_g": -20},
+  {"id": "smetana", "name": "Без сметаны", "match": ["сметан"], "kcal": -60, "protein": -1, "fat": -6, "carbs": -1, "weight_g": -30},
+  {"id": "cream", "name": "Без сливок", "match": ["сливки"], "kcal": -70, "protein": -1, "fat": -7, "carbs": -1, "weight_g": -30},
+  {"id": "butter", "name": "Без сливочного масла", "match": ["сливочное масло"], "kcal": -70, "protein": 0, "fat": -8, "carbs": 0, "weight_g": -10},
+  {"id": "croutons", "name": "Без гренок", "match": ["гренки"], "kcal": -70, "protein": -2, "fat": -3, "carbs": -10, "weight_g": -20},
+  {"id": "fat", "name": "Без курдючного жира", "match": ["курдючный жир"], "kcal": -90, "protein": 0, "fat": -10, "carbs": 0, "weight_g": -10},
+  {"id": "bread", "name": "Без лепёшки", "match": ["лепёшк", "лаваш"], "kcal": -150, "protein": -5, "fat": -1, "carbs": -30, "weight_g": -60},
+  {"id": "avocado", "name": "Без авокадо", "match": ["авокадо"], "kcal": -80, "protein": -1, "fat": -7, "carbs": -2, "weight_g": -50},
+  {"id": "nuts", "name": "Без орехов", "match": ["орех", "фисташк"], "kcal": -60, "protein": -2, "fat": -6, "carbs": -1, "weight_g": -10},
+  {"id": "sesame", "name": "Без кунжута", "match": ["кунжут"], "kcal": -20, "protein": -1, "fat": -2, "carbs": 0, "weight_g": -3},
+  {"id": "honey", "name": "Без мёда", "match": ["мёд"], "kcal": -60, "protein": 0, "fat": 0, "carbs": -16, "weight_g": -20},
+  {"id": "sugar", "name": "Без сахара", "match": ["сахар"], "kcal": -40, "protein": 0, "fat": 0, "carbs": -10, "weight_g": -10},
+  {"id": "raisins", "name": "Без изюма", "match": ["изюм"], "kcal": -30, "protein": 0, "fat": 0, "carbs": -8, "weight_g": -10},
+  {"id": "ketchup", "name": "Без кетчупа", "match": ["кетчуп"], "kcal": -20, "protein": 0, "fat": 0, "carbs": -5, "weight_g": -20},
+  {"id": "egg", "name": "Без яйца", "match": ["яйцо", "яйца", "яйцо пашот"], "kcal": -75, "protein": -6, "fat": -5, "carbs": 0, "weight_g": -50},
+  {"id": "onion", "name": "Без лука", "match": ["лук", "красный лук", "зелёный лук"], "kcal": -10, "protein": 0, "fat": 0, "carbs": -2, "weight_g": -20},
+  {"id": "garlic", "name": "Без чеснока", "match": ["чеснок"], "kcal": -3, "protein": 0, "fat": 0, "carbs": -1, "weight_g": -3},
+  {"id": "herbs", "name": "Без зелени", "match": ["зелень", "кинза", "укроп", "петрушк", "базилик"], "kcal": -2, "protein": 0, "fat": 0, "carbs": 0, "weight_g": -5}
+ ]
+}

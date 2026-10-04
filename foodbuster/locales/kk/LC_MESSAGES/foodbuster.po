@@ -1,0 +1,152 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: kk\n"
+
+msgid "Глютен"
+msgstr "Глютен"
+
+msgid "глютен"
+msgstr "глютен"
+
+msgid "Ракообразные"
+msgstr "Шаянтәрізділер"
+
+msgid "ракообразные"
+msgstr "шаянтәрізділер"
+
+msgid "Яйца"
+msgstr "Жұмыртқа"
+
+msgid "яйца"
+msgstr "жұмыртқа"
+
+msgid "Рыба"
+msgstr "Балық"
+
+msgid "рыба"
+msgstr "балық"
+
+msgid "Арахис"
+msgstr "Жержаңғақ"
+
+msgid "арахис"
+msgstr "жержаңғақ"
+
+msgid "Соя"
+msgstr "Соя"
+
+msgid "соя"
+msgstr "соя"
+
+msgid "Молоко и лактоза"
+msgstr "Сүт және лактоза"
+
+msgid "молоко"
+msgstr "сүт"
+
+msgid "Орехи"
+msgstr "Жаңғақтар"
+
+msgid "орехи"
+msgstr "жаңғақтар"
+
+msgid "Сельдерей"
+msgstr "Балдыркөк"
+
+msgid "сельдерей"
+msgstr "балдыркөк"
+
+msgid "Горчица"
+msgstr "Қыша"
+
+msgid "горчица"
+msgstr "қыша"
+
+msgid "Кунжут"
+msgstr "Күнжіт"
+
+msgid "кунжут"
+msgstr "күнжіт"
+
+msgid "Сульфиты"
+msgstr "Сульфиттер"
+
+msgid "сульфиты"
+msgstr "сульфиттер"
+
+msgid "Люпин"
+msgstr "Люпин"
+
+msgid "люпин"
+msgstr "люпин"
+
+msgid "Моллюски"
+msgstr "Ұлулар"
+
+msgid "моллюски"
+msgstr "ұлулар"
+
+msgid "Вегетарианское"
+msgstr "Вегетариандық"
+
+msgid "Веганское"
+msgstr "Вегандық"
+
+msgid "Халал"
+msgstr "Халал"
+
+msgid "Острое"
+msgstr "Ащы"
+
+msgid "Отправлен на кухню"
+msgstr "Ас үйге жіберілді"
+
+msgid "Новый"
+msgstr "Жаңа"
+
+msgid "Принят кухней"
+msgstr "Ас үй қабылдады"
+
+msgid "Принят"
+msgstr "Қабылданды"
+
+msgid "Готовится"
+msgstr "Дайындалуда"
+
+msgid "Готов — несём к столу"
+msgstr "Дайын — үстелге әкелеміз"
+
+msgid "Готов"
+msgstr "Дайын"
+
+msgid "Подан"
+msgstr "Берілді"
+
+msgid "Отменён"
+msgstr "Бас тартылды"
+
+msgid "Вопрос по меню"
+msgstr "Мәзір бойынша сұрақ"
+
+msgid "Приборы и салфетки"
+msgstr "Құралдар мен майлықтар"
+
+msgid "Хотим рассчитаться"
+msgstr "Есеп айырысқымыз келеді"
+
+msgid "Оплата наличными"
+msgstr "Қолма-қол төлем"
+
+msgid "Нужна помощь"
+msgstr "Көмек керек"
+
+msgid "Kaspi QR"
+msgstr "Kaspi QR"
+
+msgid "Банковская карта"
+msgstr "Банк картасы"
+
+msgid "Наличными официанту"
+msgstr "Даяшыға қолма-қол"
+

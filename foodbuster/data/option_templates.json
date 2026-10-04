@@ -1,0 +1,54 @@
+{
+ "_doc": "price — абсолютная доплата в тенге; price_factor — доля цены блюда (округляется до 10 ₸); scale — доли КБЖУ блюда; kcal/protein/fat/carbs/weight_g — абсолютные значения",
+ "size": {"id": "size", "name": "Порция", "type": "single", "required": true, "max": 1, "choices": [
+  {"id": "std", "name": "Стандартная"},
+  {"id": "big", "name": "Большая, +40%", "price_factor": 0.35, "scale": {"kcal": 0.4, "protein": 0.4, "fat": 0.4, "carbs": 0.4, "weight_g": 0.4}}]},
+ "spice": {"id": "spice", "name": "Острота", "type": "single", "required": true, "max": 1, "choices": [
+  {"id": "mild", "name": "Без остроты"}, {"id": "medium", "name": "Средне"}, {"id": "hot", "name": "Остро"}]},
+ "salad_extras": {"id": "extras", "name": "Добавить в салат", "type": "multi", "required": false, "max": 3, "choices": [
+  {"id": "chicken", "name": "Курица гриль", "price": 900, "kcal": 165, "protein": 25, "fat": 7, "carbs": 0, "weight_g": 80},
+  {"id": "shrimp", "name": "Тигровые креветки", "price": 1500, "kcal": 90, "protein": 18, "fat": 1, "carbs": 1, "weight_g": 70, "add_allergens": ["crustaceans"]},
+  {"id": "avocado", "name": "Авокадо", "price": 700, "kcal": 120, "protein": 1, "fat": 11, "carbs": 4, "weight_g": 60},
+  {"id": "parmesan", "name": "Пармезан", "price": 500, "kcal": 80, "protein": 7, "fat": 6, "carbs": 0, "weight_g": 20, "add_allergens": ["milk"]}]},
+ "doneness": {"id": "doneness", "name": "Прожарка", "type": "single", "required": true, "max": 1, "choices": [
+  {"id": "mr", "name": "Medium rare"}, {"id": "m", "name": "Medium"}, {"id": "mw", "name": "Medium well"}, {"id": "wd", "name": "Well done"}]},
+ "side": {"id": "side", "name": "Гарнир", "type": "single", "required": true, "max": 1, "choices": [
+  {"id": "none", "name": "Без гарнира"},
+  {"id": "fries", "name": "Картофель фри", "price": 900, "kcal": 370, "protein": 4, "fat": 17, "carbs": 44, "weight_g": 150, "add_traces": ["gluten"]},
+  {"id": "rice", "name": "Рис жасмин", "price": 700, "kcal": 230, "protein": 5, "fat": 1, "carbs": 52, "weight_g": 180},
+  {"id": "veg", "name": "Овощи гриль", "price": 900, "kcal": 120, "protein": 3, "fat": 7, "carbs": 11, "weight_g": 150},
+  {"id": "mash", "name": "Картофельное пюре", "price": 800, "kcal": 170, "protein": 4, "fat": 10, "carbs": 17, "weight_g": 180, "add_allergens": ["milk"]}]},
+ "drink_size": {"id": "volume", "name": "Объём", "type": "single", "required": true, "max": 1, "choices": [
+  {"id": "s", "name": "0,4 л"},
+  {"id": "l", "name": "0,7 л", "price_factor": 0.55, "scale": {"kcal": 0.75, "protein": 0.75, "fat": 0.75, "carbs": 0.75, "weight_g": 0.75}}]},
+ "sweet": {"id": "sweet", "name": "Сладость", "type": "single", "required": true, "max": 1, "choices": [
+  {"id": "normal", "name": "Как обычно"},
+  {"id": "less", "name": "Меньше сахара", "scale": {"kcal": -0.3, "carbs": -0.3}},
+  {"id": "none", "name": "Без сахара", "scale": {"kcal": -0.6, "carbs": -0.6}}]},
+ "milk": {"id": "milk", "name": "Молоко", "type": "single", "required": true, "max": 1, "choices": [
+  {"id": "cow", "name": "Коровье"},
+  {"id": "oat", "name": "Овсяное", "price": 300, "kcal": -10, "protein": -3, "fat": -1, "carbs": 4, "remove_allergens": ["milk"], "add_traces": ["gluten"]},
+  {"id": "coconut", "name": "Кокосовое", "price": 300, "kcal": 10, "protein": -4, "fat": 2, "carbs": 1, "remove_allergens": ["milk"]},
+  {"id": "lf", "name": "Безлактозное", "price": 200}]},
+ "porridge_milk": {"id": "base", "name": "Основа", "type": "single", "required": true, "max": 1, "choices": [
+  {"id": "cow", "name": "На коровьем молоке"},
+  {"id": "oat", "name": "На овсяном молоке", "price": 300, "kcal": -20, "protein": -3, "fat": -2, "carbs": 3, "remove_allergens": ["milk"]},
+  {"id": "water", "name": "На воде", "kcal": -70, "protein": -4, "fat": -4, "carbs": -5, "remove_allergens": ["milk"]}]},
+ "syrup": {"id": "syrup", "name": "Сироп", "type": "multi", "required": false, "max": 2, "choices": [
+  {"id": "vanilla", "name": "Ваниль", "price": 250, "kcal": 60, "carbs": 15, "weight_g": 20},
+  {"id": "caramel", "name": "Карамель", "price": 250, "kcal": 60, "carbs": 15, "weight_g": 20},
+  {"id": "saltcar", "name": "Солёная карамель", "price": 250, "kcal": 65, "fat": 1, "carbs": 14, "weight_g": 20, "add_allergens": ["milk"]},
+  {"id": "hazel", "name": "Лесной орех", "price": 250, "kcal": 60, "carbs": 15, "weight_g": 20, "add_traces": ["nuts"]}]},
+ "pizza_extra": {"id": "extras", "name": "Добавки", "type": "multi", "required": false, "max": 3, "choices": [
+  {"id": "cheese", "name": "Двойная моцарелла", "price": 700, "kcal": 180, "protein": 12, "fat": 14, "carbs": 2, "weight_g": 60, "add_allergens": ["milk"]},
+  {"id": "jalapeno", "name": "Халапеньо", "price": 300, "kcal": 5, "carbs": 1, "weight_g": 20},
+  {"id": "mush", "name": "Шампиньоны", "price": 400, "kcal": 20, "protein": 2, "carbs": 2, "weight_g": 50},
+  {"id": "pepperoni", "name": "Говяжья пепперони", "price": 800, "kcal": 150, "protein": 7, "fat": 13, "carbs": 1, "weight_g": 40}]},
+ "bread": {"id": "bread", "name": "К супу", "type": "multi", "required": false, "max": 2, "choices": [
+  {"id": "lepeshka", "name": "Тандырная лепёшка", "price": 500, "kcal": 250, "protein": 8, "fat": 3, "carbs": 50, "weight_g": 100, "add_allergens": ["gluten"], "add_traces": ["sesame"]},
+  {"id": "smetana", "name": "Сметана", "price": 250, "kcal": 90, "protein": 1, "fat": 9, "carbs": 2, "weight_g": 40, "add_allergens": ["milk"]}]},
+ "manty_sauce": {"id": "sauce", "name": "Соус", "type": "single", "required": true, "max": 1, "choices": [
+  {"id": "smetana", "name": "Сметана", "add_allergens": ["milk"]},
+  {"id": "tomato", "name": "Острый томатный", "kcal": -50, "protein": -1, "fat": -8, "carbs": 3},
+  {"id": "none", "name": "Без соуса", "kcal": -90, "protein": -1, "fat": -9, "carbs": -2, "weight_g": -40}]}
+}

@@ -1,0 +1,3228 @@
+{
+ "categories": [
+  {
+   "code": "national",
+   "name": "Национальная кухня",
+   "emoji": "🥟"
+  },
+  {
+   "code": "salads",
+   "name": "Салаты",
+   "emoji": "🥗"
+  },
+  {
+   "code": "soups",
+   "name": "Супы",
+   "emoji": "🍲"
+  },
+  {
+   "code": "hot",
+   "name": "Горячие блюда",
+   "emoji": "🍛"
+  },
+  {
+   "code": "grill",
+   "name": "Гриль и шашлык",
+   "emoji": "🔥"
+  },
+  {
+   "code": "pasta",
+   "name": "Паста и пицца",
+   "emoji": "🍕"
+  },
+  {
+   "code": "bowls",
+   "name": "Боулы и ЗОЖ",
+   "emoji": "🥑"
+  },
+  {
+   "code": "sides",
+   "name": "Закуски и гарниры",
+   "emoji": "🍟"
+  },
+  {
+   "code": "breakfast",
+   "name": "Завтраки весь день",
+   "emoji": "🍳"
+  },
+  {
+   "code": "desserts",
+   "name": "Десерты",
+   "emoji": "🍰"
+  },
+  {
+   "code": "drinks",
+   "name": "Напитки",
+   "emoji": "🍋"
+  },
+  {
+   "code": "coffee",
+   "name": "Кофе и чай",
+   "emoji": "☕"
+  }
+ ],
+ "tables": [
+  {
+   "label": "Стол 1",
+   "zone": "У окна",
+   "seats": 2,
+   "x": 14,
+   "y": 24
+  },
+  {
+   "label": "Стол 2",
+   "zone": "Основной зал",
+   "seats": 4,
+   "x": 40,
+   "y": 36
+  },
+  {
+   "label": "Стол 3",
+   "zone": "Терраса",
+   "seats": 4,
+   "x": 86,
+   "y": 26
+  },
+  {
+   "label": "Стол 4",
+   "zone": "Дастархан",
+   "seats": 8,
+   "x": 78,
+   "y": 72
+  },
+  {
+   "label": "Стол 5",
+   "zone": "Основной зал",
+   "seats": 6,
+   "x": 38,
+   "y": 74
+  }
+ ],
+ "dishes": [
+  {
+   "category": "salads",
+   "name": "Цезарь с курицей",
+   "description": "Хрустящий романо, курица гриль, пармезан, чесночные гренки и классический соус с анчоусами.",
+   "ingredients": [
+    "романо",
+    "курица гриль",
+    "пармезан",
+    "гренки",
+    "яйцо",
+    "анчоусы",
+    "чеснок",
+    "оливковое масло"
+   ],
+   "price": 3600,
+   "weight_g": 260,
+   "protein": 28,
+   "fat": 24,
+   "carbs": 16,
+   "allergens": [
+    "gluten",
+    "eggs",
+    "milk",
+    "fish",
+    "mustard"
+   ],
+   "traces": [],
+   "diets": [
+    "halal"
+   ],
+   "cook_minutes": 10,
+   "emoji": "🥗",
+   "flags": [
+    "popular"
+   ],
+   "options": [
+    "salad_extras"
+   ]
+  },
+  {
+   "category": "salads",
+   "name": "Цезарь с креветками",
+   "description": "Тигровые креветки на гриле, романо, черри, пармезан и соус цезарь.",
+   "ingredients": [
+    "тигровые креветки",
+    "романо",
+    "томаты черри",
+    "пармезан",
+    "гренки",
+    "яйцо",
+    "анчоусы"
+   ],
+   "price": 4500,
+   "weight_g": 250,
+   "protein": 24,
+   "fat": 23,
+   "carbs": 15,
+   "allergens": [
+    "crustaceans",
+    "gluten",
+    "eggs",
+    "milk",
+    "fish",
+    "mustard"
+   ],
+   "traces": [],
+   "diets": [],
+   "cook_minutes": 12,
+   "emoji": "🍤",
+   "flags": [],
+   "options": [
+    "salad_extras"
+   ]
+  },
+  {
+   "category": "salads",
+   "name": "Греческий",
+   "description": "Сочные томаты, огурцы, сладкий перец, фета, маслины каламата и орегано.",
+   "ingredients": [
+    "томаты",
+    "огурцы",
+    "болгарский перец",
+    "красный лук",
+    "фета",
+    "маслины",
+    "орегано",
+    "оливковое масло"
+   ],
+   "price": 3100,
+   "weight_g": 280,
+   "protein": 9,
+   "fat": 22,
+   "carbs": 11,
+   "allergens": [
+    "milk"
+   ],
+   "traces": [],
+   "diets": [
+    "vegetarian"
+   ],
+   "cook_minutes": 7,
+   "emoji": "🫒",
+   "flags": [],
+   "options": [
+    "salad_extras"
+   ]
+  },
+  {
+   "category": "salads",
+   "name": "Тёплый салат с говядиной",
+   "description": "Слайсы говядины, микс салатов, черри и перец в кунжутно-соевой заправке.",
+   "ingredients": [
+    "говядина",
+    "микс салатов",
+    "томаты черри",
+    "болгарский перец",
+    "кунжут",
+    "соевый соус",
+    "мёд"
+   ],
+   "price": 4200,
+   "weight_g": 240,
+   "protein": 26,
+   "fat": 18,
+   "carbs": 14,
+   "allergens": [
+    "soy",
+    "sesame",
+    "gluten"
+   ],
+   "traces": [],
+   "diets": [
+    "halal"
+   ],
+   "cook_minutes": 12,
+   "emoji": "🥩",
+   "flags": [],
+   "options": [
+    "removals"
+   ]
+  },
+  {
+   "category": "salads",
+   "name": "Ачичук",
+   "description": "Узбекский салат к плову: томаты, сладкий лук, перец чили и базилик.",
+   "ingredients": [
+    "томаты",
+    "репчатый лук",
+    "перец чили",
+    "базилик",
+    "соль"
+   ],
+   "price": 1600,
+   "weight_g": 200,
+   "protein": 2,
+   "fat": 6,
+   "carbs": 9,
+   "allergens": [],
+   "traces": [],
+   "diets": [
+    "vegan",
+    "vegetarian",
+    "halal",
+    "spicy"
+   ],
+   "cook_minutes": 5,
+   "emoji": "🍅",
+   "flags": [],
+   "options": []
+  },
+  {
+   "category": "salads",
+   "name": "Салат с тунцом и киноа",
+   "description": "Тунец, киноа, авокадо и огурец с лимонно-дижонской заправкой.",
+   "ingredients": [
+    "тунец",
+    "киноа",
+    "авокадо",
+    "огурец",
+    "руккола",
+    "лимон",
+    "дижонская горчица"
+   ],
+   "price": 4300,
+   "weight_g": 250,
+   "protein": 27,
+   "fat": 17,
+   "carbs": 22,
+   "allergens": [
+    "fish",
+    "mustard"
+   ],
+   "traces": [],
+   "diets": [],
+   "cook_minutes": 9,
+   "emoji": "🐟",
+   "flags": [
+    "new"
+   ],
+   "options": []
+  },
+  {
+   "category": "salads",
+   "name": "Оливье с говядиной",
+   "description": "Тот самый праздничный оливье с отварной говядиной и домашним майонезом.",
+   "ingredients": [
+    "картофель",
+    "отварная говядина",
+    "зелёный горошек",
+    "яйцо",
+    "маринованные огурцы",
+    "морковь",
+    "майонез"
+   ],
+   "price": 2600,
+   "weight_g": 220,
+   "protein": 14,
+   "fat": 26,
+   "carbs": 18,
+   "allergens": [
+    "eggs",
+    "mustard"
+   ],
+   "traces": [],
+   "diets": [
+    "halal"
+   ],
+   "cook_minutes": 6,
+   "emoji": "🥔",
+   "flags": [],
+   "options": []
+  },
+  {
+   "category": "salads",
+   "name": "Свёкла с козьим сыром",
+   "description": "Печёная свёкла, козий сыр, руккола, грецкий орех и цветочный мёд.",
+   "ingredients": [
+    "печёная свёкла",
+    "козий сыр",
+    "руккола",
+    "грецкий орех",
+    "мёд",
+    "бальзамик"
+   ],
+   "price": 3300,
+   "weight_g": 210,
+   "protein": 10,
+   "fat": 21,
+   "carbs": 20,
+   "allergens": [
+    "milk",
+    "nuts"
+   ],
+   "traces": [
+    "sulphites"
+   ],
+   "diets": [
+    "vegetarian"
+   ],
+   "cook_minutes": 8,
+   "emoji": "🥬",
+   "flags": [],
+   "options": []
+  },
+  {
+   "category": "salads",
+   "name": "Хрустящие баклажаны",
+   "description": "Баклажаны в лёгком кляре со сладким чили, кунжутом и кинзой.",
+   "ingredients": [
+    "баклажаны",
+    "пшеничная мука",
+    "крахмал",
+    "сладкий чили",
+    "соевый соус",
+    "кунжут",
+    "кинза"
+   ],
+   "price": 3200,
+   "weight_g": 230,
+   "protein": 5,
+   "fat": 19,
+   "carbs": 34,
+   "allergens": [
+    "gluten",
+    "sesame",
+    "soy"
+   ],
+   "traces": [],
+   "diets": [
+    "vegan",
+    "vegetarian",
+    "spicy"
+   ],
+   "cook_minutes": 10,
+   "emoji": "🍆",
+   "flags": [
+    "popular"
+   ],
+   "options": []
+  },
+  {
+   "category": "soups",
+   "name": "Шурпа из баранины",
+   "description": "Наваристый бульон на баранине с картофелем, нутом и болгарским перцем.",
+   "ingredients": [
+    "баранина",
+    "картофель",
+    "морковь",
+    "болгарский перец",
+    "нут",
+    "лук",
+    "сельдерей",
+    "зелень"
+   ],
+   "price": 3200,
+   "weight_g": 400,
+   "protein": 24,
+   "fat": 18,
+   "carbs": 22,
+   "allergens": [
+    "celery"
+   ],
+   "traces": [],
+   "diets": [
+    "halal"
+   ],
+   "cook_minutes": 8,
+   "emoji": "🍲",
+   "flags": [
+    "popular"
+   ],
+   "options": [
+    "bread"
+   ]
+  },
+  {
+   "category": "soups",
+   "name": "Борщ с говядиной",
+   "description": "Классический борщ на говяжьем бульоне, подаётся со сметаной.",
+   "ingredients": [
+    "свёкла",
+    "капуста",
+    "говядина",
+    "картофель",
+    "морковь",
+    "сельдерей",
+    "сметана",
+    "чеснок"
+   ],
+   "price": 2400,
+   "weight_g": 350,
+   "protein": 15,
+   "fat": 14,
+   "carbs": 18,
+   "allergens": [
+    "milk",
+    "celery"
+   ],
+   "traces": [],
+   "diets": [
+    "halal"
+   ],
+   "cook_minutes": 7,
+   "emoji": "🥣",
+   "flags": [],
+   "options": [
+    "bread"
+   ]
+  },
+  {
+   "category": "soups",
+   "name": "Куриный суп с лапшой",
+   "description": "Прозрачный куриный бульон и домашняя яичная лапша.",
+   "ingredients": [
+    "курица",
+    "домашняя лапша",
+    "яйцо",
+    "морковь",
+    "лук",
+    "сельдерей",
+    "укроп"
+   ],
+   "price": 1900,
+   "weight_g": 350,
+   "protein": 16,
+   "fat": 7,
+   "carbs": 20,
+   "allergens": [
+    "gluten",
+    "eggs",
+    "celery"
+   ],
+   "traces": [],
+   "diets": [
+    "halal"
+   ],
+   "cook_minutes": 6,
+   "emoji": "🍜",
+   "flags": [],
+   "options": [
+    "bread"
+   ]
+  },
+  {
+   "category": "soups",
+   "name": "Крем-суп из тыквы",
+   "description": "Бархатный суп из печёной тыквы со сливками и тыквенными семечками.",
+   "ingredients": [
+    "тыква",
+    "сливки",
+    "лук",
+    "имбирь",
+    "тыквенные семечки",
+    "оливковое масло"
+   ],
+   "price": 2100,
+   "weight_g": 300,
+   "protein": 5,
+   "fat": 16,
+   "carbs": 18,
+   "allergens": [
+    "milk"
+   ],
+   "traces": [],
+   "diets": [
+    "vegetarian"
+   ],
+   "cook_minutes": 6,
+   "emoji": "🎃",
+   "flags": [],
+   "options": []
+  },
+  {
+   "category": "soups",
+   "name": "Том ям с креветками",
+   "description": "Острый тайский суп на кокосовом молоке с креветками и шампиньонами.",
+   "ingredients": [
+    "креветки",
+    "шампиньоны",
+    "кокосовое молоко",
+    "лемонграсс",
+    "галангал",
+    "чили",
+    "лайм",
+    "рыбный соус"
+   ],
+   "price": 3900,
+   "weight_g": 350,
+   "protein": 20,
+   "fat": 18,
+   "carbs": 10,
+   "allergens": [
+    "crustaceans",
+    "fish",
+    "soy"
+   ],
+   "traces": [],
+   "diets": [
+    "spicy"
+   ],
+   "cook_minutes": 12,
+   "emoji": "🥥",
+   "flags": [
+    "popular"
+   ],
+   "options": [
+    "spice"
+   ]
+  },
+  {
+   "category": "soups",
+   "name": "Чечевичный суп",
+   "description": "Густой суп из красной чечевицы с кумином и долькой лимона.",
+   "ingredients": [
+    "красная чечевица",
+    "морковь",
+    "лук",
+    "сельдерей",
+    "кумин",
+    "лимон",
+    "оливковое масло"
+   ],
+   "price": 1700,
+   "weight_g": 330,
+   "protein": 13,
+   "fat": 6,
+   "carbs": 30,
+   "allergens": [
+    "celery"
+   ],
+   "traces": [],
+   "diets": [
+    "vegan",
+    "vegetarian",
+    "halal"
+   ],
+   "cook_minutes": 5,
+   "emoji": "🥘",
+   "flags": [],
+   "options": [
+    "bread"
+   ]
+  },
+  {
+   "category": "soups",
+   "name": "Солянка мясная",
+   "description": "Сборная солянка с говядиной, курицей, оливками, каперсами и лимоном.",
+   "ingredients": [
+    "говядина",
+    "курица",
+    "говяжьи колбаски",
+    "оливки",
+    "каперсы",
+    "маринованные огурцы",
+    "лимон",
+    "сметана",
+    "горчица"
+   ],
+   "price": 2800,
+   "weight_g": 350,
+   "protein": 20,
+   "fat": 22,
+   "carbs": 9,
+   "allergens": [
+    "milk",
+    "celery",
+    "mustard",
+    "sulphites"
+   ],
+   "traces": [],
+   "diets": [
+    "halal"
+   ],
+   "cook_minutes": 7,
+   "emoji": "🍋",
+   "flags": [],
+   "options": []
+  },
+  {
+   "category": "soups",
+   "name": "Грибной крем-суп",
+   "description": "Шампиньоны и белые грибы, сливки и хрустящие гренки.",
+   "ingredients": [
+    "шампиньоны",
+    "белые грибы",
+    "сливки",
+    "лук",
+    "сливочное масло",
+    "гренки"
+   ],
+   "price": 2200,
+   "weight_g": 300,
+   "protein": 6,
+   "fat": 19,
+   "carbs": 14,
+   "allergens": [
+    "milk",
+    "gluten"
+   ],
+   "traces": [],
+   "diets": [
+    "vegetarian"
+   ],
+   "cook_minutes": 6,
+   "emoji": "🍄",
+   "flags": [],
+   "options": []
+  },
+  {
+   "category": "national",
+   "name": "Бешбармак",
+   "description": "Тонкое домашнее тесто, отварная конина и говядина, лук в сорпе. Подаётся с бульоном.",
+   "ingredients": [
+    "домашнее тесто",
+    "конина",
+    "говядина",
+    "лук",
+    "сорпа",
+    "зелень"
+   ],
+   "price": 5900,
+   "weight_g": 450,
+   "protein": 42,
+   "fat": 34,
+   "carbs": 48,
+   "allergens": [
+    "gluten",
+    "eggs"
+   ],
+   "traces": [],
+   "diets": [
+    "halal"
+   ],
+   "cook_minutes": 15,
+   "emoji": "🥘",
+   "flags": [
+    "popular"
+   ],
+   "options": [
+    "size"
+   ]
+  },
+  {
+   "category": "national",
+   "name": "Плов чайханский",
+   "description": "Рис девзира, баранина, жёлтая морковь, нут, изюм и головка чеснока.",
+   "ingredients": [
+    "рис девзира",
+    "баранина",
+    "жёлтая морковь",
+    "нут",
+    "изюм",
+    "чеснок",
+    "зира",
+    "барбарис"
+   ],
+   "price": 3400,
+   "weight_g": 350,
+   "protein": 22,
+   "fat": 28,
+   "carbs": 62,
+   "allergens": [],
+   "traces": [
+    "sulphites"
+   ],
+   "diets": [
+    "halal"
+   ],
+   "cook_minutes": 8,
+   "emoji": "🍚",
+   "flags": [
+    "popular"
+   ],
+   "options": [
+    "size"
+   ]
+  },
+  {
+   "category": "national",
+   "name": "Манты с говядиной",
+   "description": "Пять мантов на пару: рубленая говядина, лук и курдючный жир.",
+   "ingredients": [
+    "тонкое тесто",
+    "рубленая говядина",
+    "лук",
+    "курдючный жир",
+    "специи"
+   ],
+   "price": 3200,
+   "weight_g": 300,
+   "protein": 24,
+   "fat": 26,
+   "carbs": 40,
+   "allergens": [
+    "gluten"
+   ],
+   "traces": [],
+   "diets": [
+    "halal"
+   ],
+   "cook_minutes": 18,
+   "emoji": "🥟",
+   "flags": [
+    "popular"
+   ],
+   "options": [
+    "manty_sauce"
+   ]
+  },
+  {
+   "category": "national",
+   "name": "Лагман гуйру",
+   "description": "Тянутая лапша, обжаренная с говядиной, перцем, редькой и чесноком.",
+   "ingredients": [
+    "тянутая лапша",
+    "говядина",
+    "болгарский перец",
+    "редька",
+    "сельдерей",
+    "чеснок",
+    "соевый соус"
+   ],
+   "price": 3300,
+   "weight_g": 400,
+   "protein": 26,
+   "fat": 20,
+   "carbs": 58,
+   "allergens": [
+    "gluten",
+    "eggs",
+    "soy",
+    "celery"
+   ],
+   "traces": [],
+   "diets": [
+    "halal",
+    "spicy"
+   ],
+   "cook_minutes": 12,
+   "emoji": "🍜",
+   "flags": [
+    "popular"
+   ],
+   "options": [
+    "spice"
+   ]
+  },
+  {
+   "category": "national",
+   "name": "Куырдак",
+   "description": "Жаркое из баранины и печени с картофелем и луком в казане.",
+   "ingredients": [
+    "баранина",
+    "печень",
+    "картофель",
+    "лук",
+    "курдючный жир",
+    "зира"
+   ],
+   "price": 3900,
+   "weight_g": 320,
+   "protein": 30,
+   "fat": 32,
+   "carbs": 20,
+   "allergens": [],
+   "traces": [],
+   "diets": [
+    "halal"
+   ],
+   "cook_minutes": 14,
+   "emoji": "🍖",
+   "flags": [],
+   "options": [
+    "removals"
+   ]
+  },
+  {
+   "category": "national",
+   "name": "Казы с лепёшкой",
+   "description": "Домашняя конская колбаса казы, красный лук и тёплая лепёшка.",
+   "ingredients": [
+    "казы",
+    "красный лук",
+    "тандырная лепёшка",
+    "зелень"
+   ],
+   "price": 4500,
+   "weight_g": 200,
+   "protein": 22,
+   "fat": 38,
+   "carbs": 25,
+   "allergens": [
+    "gluten"
+   ],
+   "traces": [
+    "sesame"
+   ],
+   "diets": [
+    "halal"
+   ],
+   "cook_minutes": 5,
+   "emoji": "🥓",
+   "flags": [],
+   "options": []
+  },
+  {
+   "category": "national",
+   "name": "Баурсаки",
+   "description": "Пышные баурсаки к чаю со сливочным маслом и мёдом.",
+   "ingredients": [
+    "пшеничная мука",
+    "кефир",
+    "яйцо",
+    "сливочное масло",
+    "мёд"
+   ],
+   "price": 1500,
+   "weight_g": 180,
+   "protein": 8,
+   "fat": 20,
+   "carbs": 52,
+   "allergens": [
+    "gluten",
+    "milk",
+    "eggs"
+   ],
+   "traces": [],
+   "diets": [
+    "vegetarian"
+   ],
+   "cook_minutes": 6,
+   "emoji": "🍩",
+   "flags": [
+    "popular"
+   ],
+   "options": []
+  },
+  {
+   "category": "national",
+   "name": "Самса с бараниной",
+   "description": "Две слоёные самсы из тандыра с бараниной, луком и кунжутом.",
+   "ingredients": [
+    "слоёное тесто",
+    "баранина",
+    "лук",
+    "курдючный жир",
+    "кунжут",
+    "яйцо"
+   ],
+   "price": 1800,
+   "weight_g": 220,
+   "protein": 18,
+   "fat": 30,
+   "carbs": 45,
+   "allergens": [
+    "gluten",
+    "sesame",
+    "eggs"
+   ],
+   "traces": [],
+   "diets": [
+    "halal"
+   ],
+   "cook_minutes": 10,
+   "emoji": "🥐",
+   "flags": [],
+   "options": []
+  },
+  {
+   "category": "national",
+   "name": "Чучвара в бульоне",
+   "description": "Мини-пельмени с говядиной в прозрачном бульоне со сметаной.",
+   "ingredients": [
+    "тесто",
+    "говядина",
+    "лук",
+    "бульон",
+    "сельдерей",
+    "укроп",
+    "сметана"
+   ],
+   "price": 2700,
+   "weight_g": 350,
+   "protein": 20,
+   "fat": 14,
+   "carbs": 36,
+   "allergens": [
+    "gluten",
+    "eggs",
+    "milk",
+    "celery"
+   ],
+   "traces": [],
+   "diets": [
+    "halal"
+   ],
+   "cook_minutes": 10,
+   "emoji": "🥟",
+   "flags": [],
+   "options": []
+  },
+  {
+   "category": "national",
+   "name": "Ет с картофелем",
+   "description": "Тушёная говядина по-домашнему с молодым картофелем и зеленью.",
+   "ingredients": [
+    "говядина",
+    "молодой картофель",
+    "лук",
+    "морковь",
+    "зелень"
+   ],
+   "price": 4200,
+   "weight_g": 380,
+   "protein": 34,
+   "fat": 24,
+   "carbs": 30,
+   "allergens": [],
+   "traces": [],
+   "diets": [
+    "halal"
+   ],
+   "cook_minutes": 14,
+   "emoji": "🥔",
+   "flags": [],
+   "options": [
+    "removals"
+   ]
+  },
+  {
+   "category": "national",
+   "name": "Жаркое в казане",
+   "description": "Баранина, картофель, морковь и болгарский перец, томлёные в казане.",
+   "ingredients": [
+    "баранина",
+    "картофель",
+    "морковь",
+    "болгарский перец",
+    "лук",
+    "чеснок",
+    "специи"
+   ],
+   "price": 3800,
+   "weight_g": 360,
+   "protein": 28,
+   "fat": 26,
+   "carbs": 28,
+   "allergens": [],
+   "traces": [],
+   "diets": [
+    "halal"
+   ],
+   "cook_minutes": 13,
+   "emoji": "🍲",
+   "flags": [],
+   "options": [
+    "spice"
+   ]
+  },
+  {
+   "category": "national",
+   "name": "Сырне из баранины",
+   "description": "Баранина, томлёная под крышкой в собственном соку с овощами.",
+   "ingredients": [
+    "баранина",
+    "лук",
+    "картофель",
+    "болгарский перец",
+    "курдючный жир"
+   ],
+   "price": 6500,
+   "weight_g": 400,
+   "protein": 46,
+   "fat": 42,
+   "carbs": 18,
+   "allergens": [],
+   "traces": [],
+   "diets": [
+    "halal"
+   ],
+   "cook_minutes": 20,
+   "emoji": "🍖",
+   "flags": [
+    "new"
+   ],
+   "options": [
+    "size"
+   ]
+  },
+  {
+   "category": "hot",
+   "name": "Бефстроганов с пюре",
+   "description": "Говяжья вырезка в сметанно-горчичном соусе и картофельное пюре.",
+   "ingredients": [
+    "говяжья вырезка",
+    "сметана",
+    "горчица",
+    "лук",
+    "мука",
+    "картофельное пюре"
+   ],
+   "price": 4300,
+   "weight_g": 350,
+   "protein": 32,
+   "fat": 30,
+   "carbs": 30,
+   "allergens": [
+    "milk",
+    "gluten",
+    "mustard"
+   ],
+   "traces": [],
+   "diets": [
+    "halal"
+   ],
+   "cook_minutes": 14,
+   "emoji": "🍛",
+   "flags": [],
+   "options": []
+  },
+  {
+   "category": "hot",
+   "name": "Куриное филе гриль",
+   "description": "Сочное филе на гриле с соусом чимичурри. Гарнир на выбор.",
+   "ingredients": [
+    "куриное филе",
+    "петрушка",
+    "чеснок",
+    "оливковое масло",
+    "лимон"
+   ],
+   "price": 3600,
+   "weight_g": 220,
+   "protein": 40,
+   "fat": 12,
+   "carbs": 4,
+   "allergens": [],
+   "traces": [],
+   "diets": [
+    "halal"
+   ],
+   "cook_minutes": 15,
+   "emoji": "🍗",
+   "flags": [],
+   "options": [
+    "side"
+   ]
+  },
+  {
+   "category": "hot",
+   "name": "Котлета по-киевски",
+   "description": "Куриная котлета с зелёным маслом внутри и картофельное пюре.",
+   "ingredients": [
+    "куриное филе",
+    "сливочное масло",
+    "зелень",
+    "панировка",
+    "яйцо",
+    "картофельное пюре"
+   ],
+   "price": 3700,
+   "weight_g": 330,
+   "protein": 30,
+   "fat": 38,
+   "carbs": 32,
+   "allergens": [
+    "gluten",
+    "eggs",
+    "milk"
+   ],
+   "traces": [],
+   "diets": [
+    "halal"
+   ],
+   "cook_minutes": 16,
+   "emoji": "🍗",
+   "flags": [],
+   "options": []
+  },
+  {
+   "category": "hot",
+   "name": "Лосось с киноа",
+   "description": "Стейк лосося на гриле, киноа с овощами и лимонный соус.",
+   "ingredients": [
+    "лосось",
+    "киноа",
+    "цукини",
+    "шпинат",
+    "лимон",
+    "оливковое масло"
+   ],
+   "price": 6900,
+   "weight_g": 300,
+   "protein": 36,
+   "fat": 24,
+   "carbs": 26,
+   "allergens": [
+    "fish"
+   ],
+   "traces": [],
+   "diets": [],
+   "cook_minutes": 16,
+   "emoji": "🐟",
+   "flags": [
+    "popular"
+   ],
+   "options": []
+  },
+  {
+   "category": "hot",
+   "name": "Сибас на гриле",
+   "description": "Целое филе сибаса с лимонным маслом и печёными томатами.",
+   "ingredients": [
+    "сибас",
+    "сливочное масло",
+    "лимон",
+    "томаты черри",
+    "тимьян"
+   ],
+   "price": 6400,
+   "weight_g": 320,
+   "protein": 38,
+   "fat": 20,
+   "carbs": 8,
+   "allergens": [
+    "fish",
+    "milk"
+   ],
+   "traces": [],
+   "diets": [],
+   "cook_minutes": 18,
+   "emoji": "🐠",
+   "flags": [],
+   "options": []
+  },
+  {
+   "category": "hot",
+   "name": "Утиная грудка с вишней",
+   "description": "Розовая утиная грудка, вишнёвый соус и пюре из батата.",
+   "ingredients": [
+    "утиная грудка",
+    "вишня",
+    "батат",
+    "сливочное масло",
+    "тимьян"
+   ],
+   "price": 6200,
+   "weight_g": 300,
+   "protein": 32,
+   "fat": 30,
+   "carbs": 24,
+   "allergens": [
+    "milk",
+    "sulphites"
+   ],
+   "traces": [],
+   "diets": [
+    "halal"
+   ],
+   "cook_minutes": 20,
+   "emoji": "🦆",
+   "flags": [],
+   "options": []
+  },
+  {
+   "category": "hot",
+   "name": "Томлёные говяжьи щёчки",
+   "description": "Щёчки, томлёные 8 часов, сельдерейное пюре и демиглас.",
+   "ingredients": [
+    "говяжьи щёчки",
+    "корень сельдерея",
+    "сливки",
+    "морковь",
+    "демиглас"
+   ],
+   "price": 5900,
+   "weight_g": 320,
+   "protein": 38,
+   "fat": 28,
+   "carbs": 22,
+   "allergens": [
+    "celery",
+    "milk"
+   ],
+   "traces": [],
+   "diets": [
+    "halal"
+   ],
+   "cook_minutes": 12,
+   "emoji": "🥩",
+   "flags": [],
+   "options": []
+  },
+  {
+   "category": "hot",
+   "name": "Курица терияки с рисом",
+   "description": "Бедро курицы в соусе терияки, рис жасмин, кунжут и зелёный лук.",
+   "ingredients": [
+    "куриное бедро",
+    "соус терияки",
+    "рис жасмин",
+    "кунжут",
+    "зелёный лук"
+   ],
+   "price": 3500,
+   "weight_g": 350,
+   "protein": 34,
+   "fat": 12,
+   "carbs": 58,
+   "allergens": [
+    "soy",
+    "gluten",
+    "sesame"
+   ],
+   "traces": [],
+   "diets": [
+    "halal"
+   ],
+   "cook_minutes": 12,
+   "emoji": "🍱",
+   "flags": [],
+   "options": [
+    "spice"
+   ]
+  },
+  {
+   "category": "hot",
+   "name": "Индейка с грибным соусом",
+   "description": "Медальоны из индейки в сливочно-грибном соусе с брокколи.",
+   "ingredients": [
+    "индейка",
+    "шампиньоны",
+    "сливки",
+    "брокколи",
+    "тимьян"
+   ],
+   "price": 4400,
+   "weight_g": 320,
+   "protein": 38,
+   "fat": 20,
+   "carbs": 14,
+   "allergens": [
+    "milk"
+   ],
+   "traces": [],
+   "diets": [
+    "halal"
+   ],
+   "cook_minutes": 15,
+   "emoji": "🍄",
+   "flags": [],
+   "options": [
+    "side"
+   ]
+  },
+  {
+   "category": "hot",
+   "name": "Голубцы",
+   "description": "Голубцы с говядиной и рисом в томатно-сметанном соусе.",
+   "ingredients": [
+    "капустные листья",
+    "говядина",
+    "рис",
+    "томатный соус",
+    "сметана",
+    "морковь"
+   ],
+   "price": 3100,
+   "weight_g": 340,
+   "protein": 20,
+   "fat": 18,
+   "carbs": 24,
+   "allergens": [
+    "milk"
+   ],
+   "traces": [],
+   "diets": [
+    "halal"
+   ],
+   "cook_minutes": 10,
+   "emoji": "🥬",
+   "flags": [],
+   "options": []
+  },
+  {
+   "category": "grill",
+   "name": "Шашлык из баранины",
+   "description": "Мякоть баранины на мангале, маринованный лук и лаваш.",
+   "ingredients": [
+    "баранина",
+    "лук",
+    "зира",
+    "кориандр",
+    "лаваш"
+   ],
+   "price": 4900,
+   "weight_g": 250,
+   "protein": 38,
+   "fat": 34,
+   "carbs": 4,
+   "allergens": [],
+   "traces": [
+    "gluten"
+   ],
+   "diets": [
+    "halal"
+   ],
+   "cook_minutes": 18,
+   "emoji": "🔥",
+   "flags": [
+    "popular"
+   ],
+   "options": [
+    "spice",
+    "removals"
+   ]
+  },
+  {
+   "category": "grill",
+   "name": "Шашлык из курицы",
+   "description": "Бедро курицы в йогуртовом маринаде на углях.",
+   "ingredients": [
+    "куриное бедро",
+    "йогурт",
+    "чеснок",
+    "паприка",
+    "лук"
+   ],
+   "price": 3200,
+   "weight_g": 250,
+   "protein": 42,
+   "fat": 14,
+   "carbs": 3,
+   "allergens": [
+    "milk"
+   ],
+   "traces": [],
+   "diets": [
+    "halal"
+   ],
+   "cook_minutes": 15,
+   "emoji": "🍢",
+   "flags": [],
+   "options": [
+    "spice"
+   ]
+  },
+  {
+   "category": "grill",
+   "name": "Люля-кебаб",
+   "description": "Рубленая говядина с курдюком и специями, томатный соус.",
+   "ingredients": [
+    "говядина",
+    "курдючный жир",
+    "лук",
+    "зира",
+    "перец",
+    "томатный соус"
+   ],
+   "price": 3600,
+   "weight_g": 230,
+   "protein": 32,
+   "fat": 28,
+   "carbs": 6,
+   "allergens": [],
+   "traces": [],
+   "diets": [
+    "halal",
+    "spicy"
+   ],
+   "cook_minutes": 15,
+   "emoji": "🍢",
+   "flags": [],
+   "options": [
+    "side"
+   ]
+  },
+  {
+   "category": "grill",
+   "name": "Стейк рибай",
+   "description": "Мраморный рибай зернового откорма. Прожарка и гарнир — на ваш выбор.",
+   "ingredients": [
+    "говядина рибай",
+    "морская соль",
+    "перец",
+    "розмарин",
+    "сливочное масло"
+   ],
+   "price": 8900,
+   "weight_g": 300,
+   "protein": 56,
+   "fat": 48,
+   "carbs": 0,
+   "allergens": [
+    "milk"
+   ],
+   "traces": [],
+   "diets": [
+    "halal"
+   ],
+   "cook_minutes": 20,
+   "emoji": "🥩",
+   "flags": [
+    "popular"
+   ],
+   "options": [
+    "doneness",
+    "side"
+   ]
+  },
+  {
+   "category": "grill",
+   "name": "Стейк мачете",
+   "description": "Скерт-стейк с соусом чимичурри — плотный вкус и сочная текстура.",
+   "ingredients": [
+    "говядина скерт",
+    "петрушка",
+    "чеснок",
+    "оливковое масло",
+    "винный уксус"
+   ],
+   "price": 7400,
+   "weight_g": 280,
+   "protein": 52,
+   "fat": 30,
+   "carbs": 0,
+   "allergens": [],
+   "traces": [
+    "sulphites"
+   ],
+   "diets": [
+    "halal"
+   ],
+   "cook_minutes": 18,
+   "emoji": "🥩",
+   "flags": [],
+   "options": [
+    "doneness",
+    "side"
+   ]
+  },
+  {
+   "category": "grill",
+   "name": "Крылышки BBQ",
+   "description": "Куриные крылья в дымном соусе барбекю с соусом блю чиз.",
+   "ingredients": [
+    "куриные крылья",
+    "соус барбекю",
+    "горчица",
+    "сельдерей",
+    "соевый соус",
+    "сыр с плесенью"
+   ],
+   "price": 2900,
+   "weight_g": 300,
+   "protein": 34,
+   "fat": 30,
+   "carbs": 18,
+   "allergens": [
+    "mustard",
+    "soy",
+    "celery",
+    "milk"
+   ],
+   "traces": [],
+   "diets": [
+    "halal",
+    "spicy"
+   ],
+   "cook_minutes": 16,
+   "emoji": "🍗",
+   "flags": [],
+   "options": [
+    "spice"
+   ]
+  },
+  {
+   "category": "grill",
+   "name": "Овощи на гриле",
+   "description": "Цукини, баклажан, перец, шампиньоны и томаты с травяным маслом.",
+   "ingredients": [
+    "цукини",
+    "баклажан",
+    "болгарский перец",
+    "шампиньоны",
+    "томаты",
+    "оливковое масло",
+    "тимьян"
+   ],
+   "price": 2100,
+   "weight_g": 250,
+   "protein": 4,
+   "fat": 11,
+   "carbs": 16,
+   "allergens": [],
+   "traces": [],
+   "diets": [
+    "vegan",
+    "vegetarian",
+    "halal"
+   ],
+   "cook_minutes": 10,
+   "emoji": "🫑",
+   "flags": [],
+   "options": []
+  },
+  {
+   "category": "grill",
+   "name": "Шашлык из сёмги",
+   "description": "Кубики сёмги на гриле с лаймом и соусом тартар.",
+   "ingredients": [
+    "сёмга",
+    "лайм",
+    "соус тартар",
+    "яйцо",
+    "укроп"
+   ],
+   "price": 5800,
+   "weight_g": 220,
+   "protein": 40,
+   "fat": 26,
+   "carbs": 2,
+   "allergens": [
+    "fish",
+    "eggs"
+   ],
+   "traces": [],
+   "diets": [],
+   "cook_minutes": 14,
+   "emoji": "🍣",
+   "flags": [],
+   "options": []
+  },
+  {
+   "category": "pasta",
+   "name": "Карбонара",
+   "description": "Спагетти, говяжий бекон, желток и пармезан — без сливок, по-римски.",
+   "ingredients": [
+    "спагетти",
+    "говяжий бекон",
+    "яичный желток",
+    "пармезан",
+    "чёрный перец"
+   ],
+   "price": 3700,
+   "weight_g": 300,
+   "protein": 24,
+   "fat": 32,
+   "carbs": 70,
+   "allergens": [
+    "gluten",
+    "eggs",
+    "milk"
+   ],
+   "traces": [],
+   "diets": [
+    "halal"
+   ],
+   "cook_minutes": 12,
+   "emoji": "🍝",
+   "flags": [
+    "popular"
+   ],
+   "options": []
+  },
+  {
+   "category": "pasta",
+   "name": "Паста с курицей и грибами",
+   "description": "Феттучине в сливочном соусе с курицей и шампиньонами.",
+   "ingredients": [
+    "феттучине",
+    "куриное филе",
+    "шампиньоны",
+    "сливки",
+    "пармезан",
+    "чеснок"
+   ],
+   "price": 3600,
+   "weight_g": 320,
+   "protein": 30,
+   "fat": 28,
+   "carbs": 68,
+   "allergens": [
+    "gluten",
+    "milk",
+    "eggs"
+   ],
+   "traces": [],
+   "diets": [
+    "halal"
+   ],
+   "cook_minutes": 12,
+   "emoji": "🍝",
+   "flags": [],
+   "options": []
+  },
+  {
+   "category": "pasta",
+   "name": "Болоньезе",
+   "description": "Спагетти с томлёным говяжьим рагу и пармезаном.",
+   "ingredients": [
+    "спагетти",
+    "говяжий фарш",
+    "томаты",
+    "морковь",
+    "сельдерей",
+    "пармезан"
+   ],
+   "price": 3400,
+   "weight_g": 320,
+   "protein": 26,
+   "fat": 20,
+   "carbs": 72,
+   "allergens": [
+    "gluten",
+    "celery",
+    "milk"
+   ],
+   "traces": [],
+   "diets": [
+    "halal"
+   ],
+   "cook_minutes": 11,
+   "emoji": "🍝",
+   "flags": [],
+   "options": []
+  },
+  {
+   "category": "pasta",
+   "name": "Паста с морепродуктами",
+   "description": "Лингвини с креветками, мидиями и кальмаром в томатном соусе.",
+   "ingredients": [
+    "лингвини",
+    "креветки",
+    "мидии",
+    "кальмар",
+    "томаты",
+    "чеснок",
+    "чили"
+   ],
+   "price": 4900,
+   "weight_g": 320,
+   "protein": 30,
+   "fat": 18,
+   "carbs": 66,
+   "allergens": [
+    "gluten",
+    "crustaceans",
+    "molluscs"
+   ],
+   "traces": [],
+   "diets": [
+    "spicy"
+   ],
+   "cook_minutes": 14,
+   "emoji": "🦐",
+   "flags": [],
+   "options": [
+    "spice"
+   ]
+  },
+  {
+   "category": "pasta",
+   "name": "Паста песто с черри",
+   "description": "Пенне с соусом песто из базилика, кедровых орехов и пармезана.",
+   "ingredients": [
+    "пенне",
+    "базилик",
+    "кедровые орехи",
+    "пармезан",
+    "томаты черри",
+    "оливковое масло"
+   ],
+   "price": 3200,
+   "weight_g": 280,
+   "protein": 14,
+   "fat": 26,
+   "carbs": 64,
+   "allergens": [
+    "gluten",
+    "milk",
+    "nuts"
+   ],
+   "traces": [],
+   "diets": [
+    "vegetarian"
+   ],
+   "cook_minutes": 10,
+   "emoji": "🌿",
+   "flags": [],
+   "options": []
+  },
+  {
+   "category": "pasta",
+   "name": "Пицца Маргарита",
+   "description": "Неаполитанское тесто, томаты сан-марцано, моцарелла и базилик. 30 см.",
+   "ingredients": [
+    "тесто",
+    "томатный соус",
+    "моцарелла",
+    "базилик",
+    "оливковое масло"
+   ],
+   "price": 3900,
+   "weight_g": 450,
+   "protein": 40,
+   "fat": 36,
+   "carbs": 120,
+   "allergens": [
+    "gluten",
+    "milk"
+   ],
+   "traces": [],
+   "diets": [
+    "vegetarian"
+   ],
+   "cook_minutes": 14,
+   "emoji": "🍕",
+   "flags": [
+    "popular"
+   ],
+   "options": [
+    "pizza_extra"
+   ]
+  },
+  {
+   "category": "pasta",
+   "name": "Пицца Пепперони",
+   "description": "Говяжья пепперони, моцарелла и томатный соус. 30 см.",
+   "ingredients": [
+    "тесто",
+    "томатный соус",
+    "моцарелла",
+    "говяжья пепперони",
+    "орегано"
+   ],
+   "price": 4700,
+   "weight_g": 500,
+   "protein": 50,
+   "fat": 52,
+   "carbs": 118,
+   "allergens": [
+    "gluten",
+    "milk"
+   ],
+   "traces": [],
+   "diets": [
+    "halal",
+    "spicy"
+   ],
+   "cook_minutes": 15,
+   "emoji": "🍕",
+   "flags": [],
+   "options": [
+    "pizza_extra"
+   ]
+  },
+  {
+   "category": "pasta",
+   "name": "Пицца Четыре сыра",
+   "description": "Моцарелла, горгонзола, пармезан и чеддер на сливочной основе. 30 см.",
+   "ingredients": [
+    "тесто",
+    "моцарелла",
+    "горгонзола",
+    "пармезан",
+    "чеддер",
+    "сливки"
+   ],
+   "price": 5200,
+   "weight_g": 480,
+   "protein": 52,
+   "fat": 58,
+   "carbs": 110,
+   "allergens": [
+    "gluten",
+    "milk"
+   ],
+   "traces": [],
+   "diets": [
+    "vegetarian"
+   ],
+   "cook_minutes": 15,
+   "emoji": "🧀",
+   "flags": [],
+   "options": [
+    "pizza_extra"
+   ]
+  },
+  {
+   "category": "pasta",
+   "name": "Пицца с курицей BBQ",
+   "description": "Курица, красный лук, соус барбекю и моцарелла. 30 см.",
+   "ingredients": [
+    "тесто",
+    "курица",
+    "красный лук",
+    "соус барбекю",
+    "моцарелла",
+    "горчица"
+   ],
+   "price": 4900,
+   "weight_g": 520,
+   "protein": 56,
+   "fat": 44,
+   "carbs": 124,
+   "allergens": [
+    "gluten",
+    "milk",
+    "mustard"
+   ],
+   "traces": [],
+   "diets": [
+    "halal"
+   ],
+   "cook_minutes": 15,
+   "emoji": "🍕",
+   "flags": [],
+   "options": [
+    "pizza_extra"
+   ]
+  },
+  {
+   "category": "bowls",
+   "name": "Поке с лососем",
+   "description": "Рис, лосось, авокадо, эдамаме, огурец, нори и соус понзу.",
+   "ingredients": [
+    "рис",
+    "лосось",
+    "авокадо",
+    "эдамаме",
+    "огурец",
+    "нори",
+    "соус понзу",
+    "кунжут"
+   ],
+   "price": 4600,
+   "weight_g": 350,
+   "protein": 28,
+   "fat": 20,
+   "carbs": 58,
+   "allergens": [
+    "fish",
+    "soy",
+    "sesame",
+    "gluten"
+   ],
+   "traces": [],
+   "diets": [],
+   "cook_minutes": 9,
+   "emoji": "🍣",
+   "flags": [
+    "popular"
+   ],
+   "options": []
+  },
+  {
+   "category": "bowls",
+   "name": "Поке с тунцом",
+   "description": "Тунец, рис, манго, огурец, чука и острый соус шрирача-майо.",
+   "ingredients": [
+    "рис",
+    "тунец",
+    "манго",
+    "огурец",
+    "салат чука",
+    "соус шрирача",
+    "майонез",
+    "кунжут"
+   ],
+   "price": 4800,
+   "weight_g": 350,
+   "protein": 30,
+   "fat": 16,
+   "carbs": 56,
+   "allergens": [
+    "fish",
+    "soy",
+    "sesame",
+    "gluten",
+    "eggs"
+   ],
+   "traces": [],
+   "diets": [
+    "spicy"
+   ],
+   "cook_minutes": 9,
+   "emoji": "🐟",
+   "flags": [],
+   "options": [
+    "spice"
+   ]
+  },
+  {
+   "category": "bowls",
+   "name": "Боул с курицей и киноа",
+   "description": "Киноа, курица гриль, овощи и кунжутная заправка.",
+   "ingredients": [
+    "киноа",
+    "куриное филе",
+    "огурец",
+    "томаты черри",
+    "шпинат",
+    "кунжутная заправка"
+   ],
+   "price": 3900,
+   "weight_g": 330,
+   "protein": 36,
+   "fat": 16,
+   "carbs": 42,
+   "allergens": [
+    "sesame"
+   ],
+   "traces": [],
+   "diets": [
+    "halal"
+   ],
+   "cook_minutes": 10,
+   "emoji": "🥙",
+   "flags": [],
+   "options": []
+  },
+  {
+   "category": "bowls",
+   "name": "Будда-боул с нутом",
+   "description": "Печёный нут, батат, киноа, шпинат, хумус и тахини.",
+   "ingredients": [
+    "нут",
+    "батат",
+    "киноа",
+    "шпинат",
+    "хумус",
+    "тахини",
+    "лимон"
+   ],
+   "price": 3500,
+   "weight_g": 340,
+   "protein": 16,
+   "fat": 20,
+   "carbs": 56,
+   "allergens": [
+    "sesame"
+   ],
+   "traces": [],
+   "diets": [
+    "vegan",
+    "vegetarian",
+    "halal"
+   ],
+   "cook_minutes": 9,
+   "emoji": "🥗",
+   "flags": [],
+   "options": []
+  },
+  {
+   "category": "bowls",
+   "name": "Боул с тофу терияки",
+   "description": "Тофу в соусе терияки, рис, брокколи, морковь и кунжут.",
+   "ingredients": [
+    "тофу",
+    "соус терияки",
+    "рис",
+    "брокколи",
+    "морковь",
+    "кунжут"
+   ],
+   "price": 3500,
+   "weight_g": 320,
+   "protein": 20,
+   "fat": 16,
+   "carbs": 52,
+   "allergens": [
+    "soy",
+    "gluten",
+    "sesame"
+   ],
+   "traces": [],
+   "diets": [
+    "vegan",
+    "vegetarian"
+   ],
+   "cook_minutes": 10,
+   "emoji": "🍱",
+   "flags": [],
+   "options": [
+    "spice"
+   ]
+  },
+  {
+   "category": "bowls",
+   "name": "Протеиновый боул с говядиной",
+   "description": "Говядина, гречка, яйцо пашот, брокколи и авокадо — 44 г белка.",
+   "ingredients": [
+    "говядина",
+    "гречка",
+    "яйцо",
+    "брокколи",
+    "авокадо",
+    "зелень"
+   ],
+   "price": 4400,
+   "weight_g": 360,
+   "protein": 44,
+   "fat": 18,
+   "carbs": 40,
+   "allergens": [
+    "eggs"
+   ],
+   "traces": [],
+   "diets": [
+    "halal"
+   ],
+   "cook_minutes": 12,
+   "emoji": "🥦",
+   "flags": [
+    "new"
+   ],
+   "options": []
+  },
+  {
+   "category": "bowls",
+   "name": "Смузи-боул асаи",
+   "description": "Асаи, банан, гранола, свежие ягоды и кокосовая стружка.",
+   "ingredients": [
+    "асаи",
+    "банан",
+    "гранола",
+    "клубника",
+    "голубика",
+    "кокосовая стружка"
+   ],
+   "price": 2900,
+   "weight_g": 300,
+   "protein": 7,
+   "fat": 11,
+   "carbs": 58,
+   "allergens": [
+    "gluten"
+   ],
+   "traces": [
+    "nuts"
+   ],
+   "diets": [
+    "vegan",
+    "vegetarian"
+   ],
+   "cook_minutes": 6,
+   "emoji": "🫐",
+   "flags": [],
+   "options": []
+  },
+  {
+   "category": "bowls",
+   "name": "Лосось гриль с авокадо",
+   "description": "Лосось на гриле, авокадо, салатный микс и цитрусовая заправка.",
+   "ingredients": [
+    "лосось",
+    "авокадо",
+    "микс салатов",
+    "грейпфрут",
+    "дижонская горчица"
+   ],
+   "price": 4700,
+   "weight_g": 300,
+   "protein": 32,
+   "fat": 26,
+   "carbs": 14,
+   "allergens": [
+    "fish",
+    "mustard"
+   ],
+   "traces": [],
+   "diets": [],
+   "cook_minutes": 12,
+   "emoji": "🥑",
+   "flags": [],
+   "options": []
+  },
+  {
+   "category": "sides",
+   "name": "Картофель фри",
+   "description": "Хрустящий картофель фри с морской солью и кетчупом.",
+   "ingredients": [
+    "картофель",
+    "растительное масло",
+    "морская соль",
+    "кетчуп"
+   ],
+   "price": 1200,
+   "weight_g": 150,
+   "protein": 4,
+   "fat": 17,
+   "carbs": 44,
+   "allergens": [],
+   "traces": [
+    "gluten"
+   ],
+   "diets": [
+    "vegan",
+    "vegetarian",
+    "halal"
+   ],
+   "cook_minutes": 7,
+   "emoji": "🍟",
+   "flags": [
+    "popular"
+   ],
+   "options": []
+  },
+  {
+   "category": "sides",
+   "name": "Картофель по-деревенски",
+   "description": "Дольки картофеля с розмарином и чесноком.",
+   "ingredients": [
+    "картофель",
+    "розмарин",
+    "чеснок",
+    "растительное масло"
+   ],
+   "price": 1300,
+   "weight_g": 170,
+   "protein": 4,
+   "fat": 12,
+   "carbs": 40,
+   "allergens": [],
+   "traces": [],
+   "diets": [
+    "vegan",
+    "vegetarian",
+    "halal"
+   ],
+   "cook_minutes": 8,
+   "emoji": "🥔",
+   "flags": [],
+   "options": []
+  },
+  {
+   "category": "sides",
+   "name": "Рис жасмин",
+   "description": "Рассыпчатый тайский рис жасмин.",
+   "ingredients": [
+    "рис жасмин"
+   ],
+   "price": 900,
+   "weight_g": 180,
+   "protein": 5,
+   "fat": 1,
+   "carbs": 52,
+   "allergens": [],
+   "traces": [],
+   "diets": [
+    "vegan",
+    "vegetarian",
+    "halal"
+   ],
+   "cook_minutes": 4,
+   "emoji": "🍚",
+   "flags": [],
+   "options": []
+  },
+  {
+   "category": "sides",
+   "name": "Картофельное пюре",
+   "description": "Нежное пюре на сливочном масле и молоке.",
+   "ingredients": [
+    "картофель",
+    "сливочное масло",
+    "молоко"
+   ],
+   "price": 1000,
+   "weight_g": 180,
+   "protein": 4,
+   "fat": 10,
+   "carbs": 26,
+   "allergens": [
+    "milk"
+   ],
+   "traces": [],
+   "diets": [
+    "vegetarian",
+    "halal"
+   ],
+   "cook_minutes": 4,
+   "emoji": "🥔",
+   "flags": [],
+   "options": []
+  },
+  {
+   "category": "sides",
+   "name": "Хумус с лепёшкой",
+   "description": "Нутовый хумус с тахини, паприкой и тёплой лепёшкой.",
+   "ingredients": [
+    "нут",
+    "тахини",
+    "лимон",
+    "чеснок",
+    "паприка",
+    "оливковое масло",
+    "лепёшка"
+   ],
+   "price": 1900,
+   "weight_g": 200,
+   "protein": 10,
+   "fat": 18,
+   "carbs": 36,
+   "allergens": [
+    "sesame",
+    "gluten"
+   ],
+   "traces": [],
+   "diets": [
+    "vegan",
+    "vegetarian",
+    "halal"
+   ],
+   "cook_minutes": 5,
+   "emoji": "🫓",
+   "flags": [],
+   "options": []
+  },
+  {
+   "category": "sides",
+   "name": "Сырные палочки",
+   "description": "Моцарелла в хрустящей панировке с ягодным соусом.",
+   "ingredients": [
+    "моцарелла",
+    "панировка",
+    "яйцо",
+    "ягодный соус"
+   ],
+   "price": 2300,
+   "weight_g": 160,
+   "protein": 16,
+   "fat": 26,
+   "carbs": 24,
+   "allergens": [
+    "milk",
+    "gluten",
+    "eggs"
+   ],
+   "traces": [],
+   "diets": [
+    "vegetarian"
+   ],
+   "cook_minutes": 8,
+   "emoji": "🧀",
+   "flags": [],
+   "options": []
+  },
+  {
+   "category": "sides",
+   "name": "Куриные наггетсы",
+   "description": "Наггетсы из филе с соусом барбекю.",
+   "ingredients": [
+    "куриное филе",
+    "панировка",
+    "яйцо",
+    "соус барбекю"
+   ],
+   "price": 1900,
+   "weight_g": 180,
+   "protein": 22,
+   "fat": 18,
+   "carbs": 20,
+   "allergens": [
+    "gluten",
+    "eggs"
+   ],
+   "traces": [
+    "milk",
+    "mustard"
+   ],
+   "diets": [
+    "halal"
+   ],
+   "cook_minutes": 8,
+   "emoji": "🍗",
+   "flags": [],
+   "options": []
+  },
+  {
+   "category": "sides",
+   "name": "Тандырная лепёшка",
+   "description": "Горячая лепёшка из тандыра с кунжутом.",
+   "ingredients": [
+    "мука",
+    "вода",
+    "дрожжи",
+    "соль",
+    "кунжут"
+   ],
+   "price": 500,
+   "weight_g": 200,
+   "protein": 15,
+   "fat": 5,
+   "carbs": 100,
+   "allergens": [
+    "gluten",
+    "sesame"
+   ],
+   "traces": [],
+   "diets": [
+    "vegan",
+    "vegetarian",
+    "halal"
+   ],
+   "cook_minutes": 3,
+   "emoji": "🫓",
+   "flags": [],
+   "options": []
+  },
+  {
+   "category": "breakfast",
+   "name": "Сырники со сметаной",
+   "description": "Пышные сырники из фермерского творога со сметаной и ягодным джемом.",
+   "ingredients": [
+    "творог",
+    "яйцо",
+    "мука",
+    "сахар",
+    "сметана",
+    "ягодный джем"
+   ],
+   "price": 2400,
+   "weight_g": 220,
+   "protein": 22,
+   "fat": 18,
+   "carbs": 36,
+   "allergens": [
+    "milk",
+    "eggs",
+    "gluten"
+   ],
+   "traces": [],
+   "diets": [
+    "vegetarian"
+   ],
+   "cook_minutes": 10,
+   "emoji": "🥞",
+   "flags": [
+    "popular"
+   ],
+   "options": []
+  },
+  {
+   "category": "breakfast",
+   "name": "Омлет с овощами",
+   "description": "Пышный омлет с томатами, шпинатом и сыром.",
+   "ingredients": [
+    "яйца",
+    "молоко",
+    "томаты",
+    "шпинат",
+    "сыр",
+    "сливочное масло"
+   ],
+   "price": 2200,
+   "weight_g": 230,
+   "protein": 20,
+   "fat": 22,
+   "carbs": 8,
+   "allergens": [
+    "eggs",
+    "milk"
+   ],
+   "traces": [],
+   "diets": [
+    "vegetarian"
+   ],
+   "cook_minutes": 8,
+   "emoji": "🍳",
+   "flags": [],
+   "options": []
+  },
+  {
+   "category": "breakfast",
+   "name": "Шакшука",
+   "description": "Яйца, запечённые в пряном томатном соусе с перцем, и лепёшка.",
+   "ingredients": [
+    "яйца",
+    "томаты",
+    "болгарский перец",
+    "лук",
+    "зира",
+    "паприка",
+    "лепёшка"
+   ],
+   "price": 2600,
+   "weight_g": 300,
+   "protein": 18,
+   "fat": 18,
+   "carbs": 28,
+   "allergens": [
+    "eggs",
+    "gluten"
+   ],
+   "traces": [],
+   "diets": [
+    "vegetarian",
+    "spicy"
+   ],
+   "cook_minutes": 12,
+   "emoji": "🍳",
+   "flags": [],
+   "options": [
+    "spice"
+   ]
+  },
+  {
+   "category": "breakfast",
+   "name": "Яйца Бенедикт с лососем",
+   "description": "Бриошь, слабосолёный лосось, яйца пашот и голландский соус.",
+   "ingredients": [
+    "бриошь",
+    "лосось",
+    "яйца",
+    "голландский соус",
+    "сливочное масло",
+    "горчица"
+   ],
+   "price": 3800,
+   "weight_g": 250,
+   "protein": 26,
+   "fat": 34,
+   "carbs": 24,
+   "allergens": [
+    "eggs",
+    "gluten",
+    "milk",
+    "fish",
+    "mustard"
+   ],
+   "traces": [],
+   "diets": [],
+   "cook_minutes": 12,
+   "emoji": "🥚",
+   "flags": [],
+   "options": []
+  },
+  {
+   "category": "breakfast",
+   "name": "Овсяная каша с бананом",
+   "description": "Овсянка с бананом, мёдом и семечками. Основа на выбор.",
+   "ingredients": [
+    "овсяные хлопья",
+    "молоко",
+    "банан",
+    "мёд",
+    "семечки подсолнечника"
+   ],
+   "price": 1700,
+   "weight_g": 300,
+   "protein": 9,
+   "fat": 8,
+   "carbs": 58,
+   "allergens": [
+    "gluten",
+    "milk"
+   ],
+   "traces": [
+    "nuts"
+   ],
+   "diets": [
+    "vegetarian"
+   ],
+   "cook_minutes": 6,
+   "emoji": "🥣",
+   "flags": [],
+   "options": [
+    "porridge_milk"
+   ]
+  },
+  {
+   "category": "breakfast",
+   "name": "Авокадо-тост",
+   "description": "Цельнозерновой хлеб, крем из авокадо, яйцо пашот и микрозелень.",
+   "ingredients": [
+    "цельнозерновой хлеб",
+    "авокадо",
+    "яйцо",
+    "лайм",
+    "микрозелень",
+    "чили"
+   ],
+   "price": 2900,
+   "weight_g": 220,
+   "protein": 14,
+   "fat": 22,
+   "carbs": 26,
+   "allergens": [
+    "gluten",
+    "eggs"
+   ],
+   "traces": [
+    "sesame"
+   ],
+   "diets": [
+    "vegetarian"
+   ],
+   "cook_minutes": 8,
+   "emoji": "🥑",
+   "flags": [
+    "new"
+   ],
+   "options": []
+  },
+  {
+   "category": "breakfast",
+   "name": "Блины с творогом",
+   "description": "Тонкие блины с творожной начинкой и сметаной.",
+   "ingredients": [
+    "мука",
+    "молоко",
+    "яйца",
+    "творог",
+    "сахар",
+    "сметана"
+   ],
+   "price": 2100,
+   "weight_g": 240,
+   "protein": 18,
+   "fat": 14,
+   "carbs": 40,
+   "allergens": [
+    "gluten",
+    "eggs",
+    "milk"
+   ],
+   "traces": [],
+   "diets": [
+    "vegetarian"
+   ],
+   "cook_minutes": 9,
+   "emoji": "🥞",
+   "flags": [],
+   "options": []
+  },
+  {
+   "category": "desserts",
+   "name": "Чизкейк Нью-Йорк",
+   "description": "Плотный сливочный чизкейк на песочной основе с ягодным соусом.",
+   "ingredients": [
+    "сливочный сыр",
+    "сливки",
+    "яйца",
+    "сахар",
+    "песочное печенье",
+    "ягодный соус"
+   ],
+   "price": 2300,
+   "weight_g": 140,
+   "protein": 8,
+   "fat": 28,
+   "carbs": 30,
+   "allergens": [
+    "milk",
+    "eggs",
+    "gluten"
+   ],
+   "traces": [],
+   "diets": [
+    "vegetarian"
+   ],
+   "cook_minutes": 3,
+   "emoji": "🍰",
+   "flags": [
+    "popular"
+   ],
+   "options": []
+  },
+  {
+   "category": "desserts",
+   "name": "Медовик",
+   "description": "Тонкие медовые коржи и нежный сметанный крем.",
+   "ingredients": [
+    "мука",
+    "мёд",
+    "яйца",
+    "сметана",
+    "сливочное масло",
+    "сахар"
+   ],
+   "price": 1900,
+   "weight_g": 130,
+   "protein": 6,
+   "fat": 20,
+   "carbs": 48,
+   "allergens": [
+    "gluten",
+    "eggs",
+    "milk"
+   ],
+   "traces": [],
+   "diets": [
+    "vegetarian"
+   ],
+   "cook_minutes": 3,
+   "emoji": "🍯",
+   "flags": [],
+   "options": []
+  },
+  {
+   "category": "desserts",
+   "name": "Тирамису",
+   "description": "Савоярди, пропитанные эспрессо, и крем из маскарпоне.",
+   "ingredients": [
+    "маскарпоне",
+    "яйца",
+    "сахар",
+    "савоярди",
+    "эспрессо",
+    "какао"
+   ],
+   "price": 2500,
+   "weight_g": 150,
+   "protein": 7,
+   "fat": 24,
+   "carbs": 32,
+   "allergens": [
+    "milk",
+    "eggs",
+    "gluten"
+   ],
+   "traces": [],
+   "diets": [
+    "vegetarian"
+   ],
+   "cook_minutes": 3,
+   "emoji": "🍮",
+   "flags": [],
+   "options": []
+  },
+  {
+   "category": "desserts",
+   "name": "Шоколадный фондан",
+   "description": "Тёплый фондан с жидкой серединкой и шариком ванильного мороженого.",
+   "ingredients": [
+    "тёмный шоколад",
+    "сливочное масло",
+    "яйца",
+    "мука",
+    "сахар",
+    "ванильное мороженое"
+   ],
+   "price": 2600,
+   "weight_g": 160,
+   "protein": 8,
+   "fat": 28,
+   "carbs": 46,
+   "allergens": [
+    "milk",
+    "eggs",
+    "gluten"
+   ],
+   "traces": [
+    "nuts"
+   ],
+   "diets": [
+    "vegetarian"
+   ],
+   "cook_minutes": 12,
+   "emoji": "🍫",
+   "flags": [],
+   "options": []
+  },
+  {
+   "category": "desserts",
+   "name": "Наполеон",
+   "description": "Хрустящее слоёное тесто и заварной крем.",
+   "ingredients": [
+    "слоёное тесто",
+    "молоко",
+    "яйца",
+    "сливочное масло",
+    "сахар"
+   ],
+   "price": 1900,
+   "weight_g": 140,
+   "protein": 6,
+   "fat": 26,
+   "carbs": 40,
+   "allergens": [
+    "gluten",
+    "milk",
+    "eggs"
+   ],
+   "traces": [],
+   "diets": [
+    "vegetarian"
+   ],
+   "cook_minutes": 3,
+   "emoji": "🍰",
+   "flags": [],
+   "options": []
+  },
+  {
+   "category": "desserts",
+   "name": "Чак-чак",
+   "description": "Татарская сладость из теста и мёда — к чаю на всю компанию.",
+   "ingredients": [
+    "мука",
+    "яйца",
+    "мёд",
+    "сахар"
+   ],
+   "price": 1600,
+   "weight_g": 120,
+   "protein": 6,
+   "fat": 16,
+   "carbs": 56,
+   "allergens": [
+    "gluten",
+    "eggs"
+   ],
+   "traces": [],
+   "diets": [
+    "vegetarian"
+   ],
+   "cook_minutes": 2,
+   "emoji": "🍯",
+   "flags": [],
+   "options": []
+  },
+  {
+   "category": "desserts",
+   "name": "Мороженое, 3 шарика",
+   "description": "Ваниль, шоколад и солёная карамель — или соберите своё.",
+   "ingredients": [
+    "сливки",
+    "молоко",
+    "сахар",
+    "яичный желток",
+    "какао",
+    "карамель"
+   ],
+   "price": 1800,
+   "weight_g": 150,
+   "protein": 5,
+   "fat": 17,
+   "carbs": 33,
+   "allergens": [
+    "milk",
+    "eggs"
+   ],
+   "traces": [
+    "nuts",
+    "peanuts"
+   ],
+   "diets": [
+    "vegetarian"
+   ],
+   "cook_minutes": 2,
+   "emoji": "🍨",
+   "flags": [],
+   "options": []
+  },
+  {
+   "category": "desserts",
+   "name": "Фруктовая тарелка",
+   "description": "Сезонные фрукты и ягоды на компанию из 3–4 человек.",
+   "ingredients": [
+    "яблоко",
+    "груша",
+    "виноград",
+    "апельсин",
+    "киви",
+    "клубника",
+    "мята"
+   ],
+   "price": 3200,
+   "weight_g": 400,
+   "protein": 3,
+   "fat": 1,
+   "carbs": 48,
+   "allergens": [],
+   "traces": [],
+   "diets": [
+    "vegan",
+    "vegetarian",
+    "halal"
+   ],
+   "cook_minutes": 6,
+   "emoji": "🍓",
+   "flags": [],
+   "options": []
+  },
+  {
+   "category": "desserts",
+   "name": "Пахлава с фисташкой",
+   "description": "Слоёная пахлава с фисташкой и медовым сиропом.",
+   "ingredients": [
+    "тесто фило",
+    "фисташки",
+    "сливочное масло",
+    "мёд",
+    "сахар"
+   ],
+   "price": 2100,
+   "weight_g": 120,
+   "protein": 7,
+   "fat": 26,
+   "carbs": 44,
+   "allergens": [
+    "nuts",
+    "gluten",
+    "milk"
+   ],
+   "traces": [],
+   "diets": [
+    "vegetarian"
+   ],
+   "cook_minutes": 2,
+   "emoji": "🥮",
+   "flags": [],
+   "options": []
+  },
+  {
+   "category": "desserts",
+   "name": "Брауни с арахисовой пастой",
+   "description": "Влажный шоколадный брауни с прослойкой арахисовой пасты.",
+   "ingredients": [
+    "тёмный шоколад",
+    "арахисовая паста",
+    "сливочное масло",
+    "яйца",
+    "мука",
+    "сахар"
+   ],
+   "price": 1900,
+   "weight_g": 110,
+   "protein": 9,
+   "fat": 28,
+   "carbs": 38,
+   "allergens": [
+    "peanuts",
+    "gluten",
+    "eggs",
+    "milk"
+   ],
+   "traces": [
+    "nuts"
+   ],
+   "diets": [
+    "vegetarian"
+   ],
+   "cook_minutes": 3,
+   "emoji": "🥜",
+   "flags": [
+    "new"
+   ],
+   "options": []
+  },
+  {
+   "category": "drinks",
+   "name": "Лимонад манго-маракуйя",
+   "description": "Манго, маракуйя, лайм и газированная вода.",
+   "ingredients": [
+    "пюре манго",
+    "маракуйя",
+    "лайм",
+    "сахарный сироп",
+    "газированная вода"
+   ],
+   "price": 1500,
+   "weight_g": 400,
+   "protein": 0,
+   "fat": 0,
+   "carbs": 36,
+   "allergens": [],
+   "traces": [],
+   "diets": [
+    "vegan",
+    "vegetarian",
+    "halal"
+   ],
+   "cook_minutes": 3,
+   "emoji": "🥭",
+   "flags": [
+    "popular"
+   ],
+   "options": [
+    "drink_size",
+    "sweet"
+   ]
+  },
+  {
+   "category": "drinks",
+   "name": "Лимонад тархун",
+   "description": "Освежающий тархун с лаймом и мятой.",
+   "ingredients": [
+    "тархун",
+    "лайм",
+    "мята",
+    "сахарный сироп",
+    "газированная вода"
+   ],
+   "price": 1300,
+   "weight_g": 400,
+   "protein": 0,
+   "fat": 0,
+   "carbs": 30,
+   "allergens": [],
+   "traces": [],
+   "diets": [
+    "vegan",
+    "vegetarian",
+    "halal"
+   ],
+   "cook_minutes": 3,
+   "emoji": "🌿",
+   "flags": [],
+   "options": [
+    "drink_size",
+    "sweet"
+   ]
+  },
+  {
+   "category": "drinks",
+   "name": "Морс клюквенный",
+   "description": "Домашний морс из клюквы и брусники.",
+   "ingredients": [
+    "клюква",
+    "брусника",
+    "вода",
+    "сахар"
+   ],
+   "price": 1100,
+   "weight_g": 400,
+   "protein": 0,
+   "fat": 0,
+   "carbs": 28,
+   "allergens": [],
+   "traces": [],
+   "diets": [
+    "vegan",
+    "vegetarian",
+    "halal"
+   ],
+   "cook_minutes": 2,
+   "emoji": "🫐",
+   "flags": [],
+   "options": [
+    "drink_size",
+    "sweet"
+   ]
+  },
+  {
+   "category": "drinks",
+   "name": "Апельсиновый фреш",
+   "description": "Свежевыжатый сок из спелых апельсинов.",
+   "ingredients": [
+    "апельсины"
+   ],
+   "price": 1900,
+   "weight_g": 300,
+   "protein": 2,
+   "fat": 0,
+   "carbs": 30,
+   "allergens": [],
+   "traces": [],
+   "diets": [
+    "vegan",
+    "vegetarian",
+    "halal"
+   ],
+   "cook_minutes": 4,
+   "emoji": "🍊",
+   "flags": [],
+   "options": []
+  },
+  {
+   "category": "drinks",
+   "name": "Айран",
+   "description": "Освежающий айран — лучший напиток к мясу и плову.",
+   "ingredients": [
+    "кисломолочный айран",
+    "соль"
+   ],
+   "price": 700,
+   "weight_g": 300,
+   "protein": 8,
+   "fat": 4,
+   "carbs": 10,
+   "allergens": [
+    "milk"
+   ],
+   "traces": [],
+   "diets": [
+    "vegetarian",
+    "halal"
+   ],
+   "cook_minutes": 1,
+   "emoji": "🥛",
+   "flags": [],
+   "options": []
+  },
+  {
+   "category": "drinks",
+   "name": "Кумыс",
+   "description": "Натуральный кумыс из кобыльего молока, лёгкое природное брожение.",
+   "ingredients": [
+    "кобылье молоко"
+   ],
+   "price": 1400,
+   "weight_g": 400,
+   "protein": 8,
+   "fat": 6,
+   "carbs": 20,
+   "allergens": [
+    "milk"
+   ],
+   "traces": [],
+   "diets": [
+    "vegetarian"
+   ],
+   "cook_minutes": 1,
+   "emoji": "🍶",
+   "flags": [],
+   "options": []
+  },
+  {
+   "category": "coffee",
+   "name": "Капучино",
+   "description": "Двойной эспрессо и шелковистая молочная пена.",
+   "ingredients": [
+    "эспрессо",
+    "молоко"
+   ],
+   "price": 1300,
+   "weight_g": 300,
+   "protein": 7,
+   "fat": 7,
+   "carbs": 10,
+   "allergens": [
+    "milk"
+   ],
+   "traces": [],
+   "diets": [
+    "vegetarian",
+    "halal"
+   ],
+   "cook_minutes": 4,
+   "emoji": "☕",
+   "flags": [
+    "popular"
+   ],
+   "options": [
+    "milk",
+    "syrup"
+   ]
+  },
+  {
+   "category": "coffee",
+   "name": "Латте",
+   "description": "Мягкий кофе с большим количеством молока.",
+   "ingredients": [
+    "эспрессо",
+    "молоко"
+   ],
+   "price": 1400,
+   "weight_g": 350,
+   "protein": 8,
+   "fat": 8,
+   "carbs": 12,
+   "allergens": [
+    "milk"
+   ],
+   "traces": [],
+   "diets": [
+    "vegetarian",
+    "halal"
+   ],
+   "cook_minutes": 4,
+   "emoji": "☕",
+   "flags": [],
+   "options": [
+    "milk",
+    "syrup"
+   ]
+  },
+  {
+   "category": "coffee",
+   "name": "Американо",
+   "description": "Эспрессо, разбавленный горячей водой.",
+   "ingredients": [
+    "эспрессо",
+    "вода"
+   ],
+   "price": 900,
+   "weight_g": 300,
+   "protein": 0,
+   "fat": 0,
+   "carbs": 1,
+   "allergens": [],
+   "traces": [],
+   "diets": [
+    "vegan",
+    "vegetarian",
+    "halal"
+   ],
+   "cook_minutes": 3,
+   "emoji": "☕",
+   "flags": [],
+   "options": []
+  },
+  {
+   "category": "coffee",
+   "name": "Чай по-казахски",
+   "description": "Чайник крепкого чёрного чая со сливками на компанию.",
+   "ingredients": [
+    "чёрный чай",
+    "сливки",
+    "молоко"
+   ],
+   "price": 1200,
+   "weight_g": 800,
+   "protein": 6,
+   "fat": 8,
+   "carbs": 12,
+   "allergens": [
+    "milk"
+   ],
+   "traces": [],
+   "diets": [
+    "vegetarian",
+    "halal"
+   ],
+   "cook_minutes": 4,
+   "emoji": "🫖",
+   "flags": [
+    "popular"
+   ],
+   "options": []
+  },
+  {
+   "category": "coffee",
+   "name": "Матча латте",
+   "description": "Японский чай матча и молоко — мягкая бодрость без горечи.",
+   "ingredients": [
+    "чай матча",
+    "молоко"
+   ],
+   "price": 1800,
+   "weight_g": 350,
+   "protein": 8,
+   "fat": 8,
+   "carbs": 18,
+   "allergens": [
+    "milk"
+   ],
+   "traces": [],
+   "diets": [
+    "vegetarian",
+    "halal"
+   ],
+   "cook_minutes": 5,
+   "emoji": "🍵",
+   "flags": [
+    "new"
+   ],
+   "options": [
+    "milk",
+    "syrup"
+   ]
+  }
+ ]
+}
