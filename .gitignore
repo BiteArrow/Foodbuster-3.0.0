@@ -1,5 +1,5 @@
-".env" 
-"*.sqlite3" 
-".foodbuster/" 
-".tableos/" 
-"__pycache__/" 
+.env
+*.sqlite3
+.foodbuster/
+.tableos/
+__pycache__/
